@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly exam form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="maincont">
+        <div class="account"><h4 class="account">Account</h4>
+            <input type="name" placeholder="Full Name" class="fullname">
+            <input type="email" placeholder="Email Address" class="email">
+            <input type="password" placeholder="Password" class="password">
+        </div>
+        <div class="return">
+            <div class="first"><h4>Date of Birth</h4></div> 
+            <div class="second"><h4>Gender</h4></div>
+        </div>
+        <div class="middle">
+            <div class="dateofbirth">
+            <input type="datetime" placeholder="DD" class="dd">
+            <input type="datetime" placeholder="MM" class="mm">
+            <input type="datetime" placeholder="YYYY" class="yyyy">
+            </div>
+            <div class="gender">
+                <input type="datetime" placeholder="Male" class="male">
+                <input type="datetime" placeholder="Female" class="female">
+            </div>
+        </div>
+        <div class="paymentdet"><h4>Payment Details*</h4>
+            <div class="tickcard"><input type="email" placeholder="creditcard" class="credit">
+                <input type="password" placeholder="Paypal" class="paypal"></div>
+            <input type="number" placeholder="Card Number">
+            <div class="cardlast">
+                <input type="number" placeholder="CVC">
+                <select >
+                    <option value="Date">01 Jan</option>
+                </select>
+                <select >
+                    <option value="date">2015</option>
+                </select>
+            </div>
+        </div>
+        <div class="terms">
+            <input type="checkbox" id="check"><p>I accept the terms and conditions for signing up to the service,and hereby confirm i have read the privacy policy*</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
